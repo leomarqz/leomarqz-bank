@@ -1,2 +1,2 @@
-# xnerd-bank
-Full-Stack FinTech Application - XNERD BANK 
+# leomarqz-bank
+Full-Stack FinTech Application - LEOMARQZ BANK 
