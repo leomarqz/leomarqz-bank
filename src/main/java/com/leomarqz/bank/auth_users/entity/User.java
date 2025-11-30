@@ -1,5 +1,6 @@
 package com.leomarqz.bank.auth_users.entity;
 
+import com.leomarqz.bank.account.entity.Account;
 import com.leomarqz.bank.role.entity.Role;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
