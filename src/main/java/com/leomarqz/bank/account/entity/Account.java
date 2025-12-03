@@ -4,6 +4,7 @@ import com.leomarqz.bank.auth_users.entity.User;
 import com.leomarqz.bank.enums.AccountStatus;
 import com.leomarqz.bank.enums.AccountType;
 import com.leomarqz.bank.enums.Currency;
+import com.leomarqz.bank.transaction.entity.Transaction;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -13,6 +14,7 @@ import lombok.NoArgsConstructor;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Data

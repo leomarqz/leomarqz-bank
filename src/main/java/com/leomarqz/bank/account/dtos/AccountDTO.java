@@ -3,14 +3,14 @@ package com.leomarqz.bank.account.dtos;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.leomarqz.bank.auth_users.dtos.UserDTO;
-import com.leomarqz.bank.auth_users.entity.User;
 import com.leomarqz.bank.enums.AccountStatus;
 import com.leomarqz.bank.enums.AccountType;
 import com.leomarqz.bank.enums.Currency;
-import jakarta.persistence.*;
+import com.leomarqz.bank.transaction.dtos.TransactionDTO;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.List;
 
 public class AccountDTO {
 
